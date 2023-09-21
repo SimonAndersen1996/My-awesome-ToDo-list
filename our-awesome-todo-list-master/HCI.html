@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<!-- This is Simon S's approach on how to make a toDo list-->
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Styling.css">
+    <title>My Awesome ToDo list</title>
+</head>
+
+<body>
+    <div class="webpage">
+        <div class="menu">
+            <header>Menu</header>
+            <hr>
+            <div>
+                <ul id="menuLists">
+                </ul>
+            </div>
+        </div>
+        <div class="informationIcon">
+            <div class="informationBoard">Did you know: You can move items by dragging them around, try it!</div>
+        </div>
+        <div class="wrapper">
+            <div class="inputText">
+                <input type="text" placeholder="Add your new todo" id="textInput" autocomplete="off">
+                <button type="button" class="inputButton">+</button>
+            </div>
+            <div class="listWrapper workbench" id=" ">
+                <div class="workbenchHeader">
+                    <header class="listTitle" id="toDoHeader"> </header>
+                    <button type="button" id="listTitleButton">Name list</button>
+                </div>
+                <hr class="hr">
+                <ul id="toDo" class="container">
+                </ul>
+                <div class="footer">
+                    <button type="button" class="clearButton">Clear All Tasks</button>
+                    <button type="button" class="saveButton">Save List</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
